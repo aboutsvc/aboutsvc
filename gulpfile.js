@@ -11,7 +11,7 @@ const comments = require("gulp-header-comment");
 
 var path = {
   src: {
-    html: "source/*.html",
+    html: "source/**/*.html",
     others: "source/*.+(php|ico|png)",
     htminc: "source/partials/**/*.htm",
     incdir: "source/partials/",
